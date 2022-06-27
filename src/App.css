@@ -1,0 +1,62 @@
+.timer{
+  margin:auto;
+  align-items:center;
+  display:flex;
+  justify-content:space-evenly;
+}
+
+.timer-boxes {
+box-shadow:12px 12px 12px Gray;
+color:rgb(211, 211, 211);
+width:100%;
+border-radius:.5rem;
+background-color:rgb(169, 169, 169);
+height:13rem;
+align-items:center;
+justify-content:center;
+display:flex;
+font-size:8rem;
+margin-bottom: 4rem;
+}
+
+#time-labels{
+width:15%;
+text-align:center;
+font-size:3rem;
+color:grey;
+
+}
+
+h1{
+  display: flex;
+  
+  justify-content: center;
+  margin:auto ;
+  max-width: 20%;
+  text-align: center;
+  color:  DarkGray;
+  padding: 2rem;
+  box-shadow:12px 12px 12px Gray;
+  margin-bottom: 6rem;
+}
+@media (max-width:603px){
+
+  .timer-boxes{
+    font-size:5rem ;
+  }
+
+  #time-labels{
+    font-size:2rem ;
+  }
+  }
+
+  @media (max-width:350px){
+
+    .timer-boxes{
+      font-size:3rem ;
+    }
+  
+    #time-labels{
+      font-size:1.5rem ;
+    }
+    }
