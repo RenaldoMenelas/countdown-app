@@ -2,7 +2,7 @@
 import './App.css';
 
 const myFunc = setInterval(function(){
-  const countDownTime = new Date("july 4, 2022 16:37:52").getTime();
+  const countDownTime = new Date("july 4, 2023 16:37:52").getTime();
   const now = new Date().getTime()
   const timeLeft = countDownTime - now;
   const days = Math.floor(timeLeft/(1000 * 60 * 60 * 24));
