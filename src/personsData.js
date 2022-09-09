@@ -8,7 +8,7 @@ function PersonsData({data,setData}) {
 
    
     const handleSubmit = (event) => {
-     
+        window.document.body.style.zoom = 1
         event.preventDefault();
         //console.log(`${data.firstName} ${data.lastName} bithday is on ${data.birthDate}`)
         
@@ -17,9 +17,9 @@ function PersonsData({data,setData}) {
             
             submitted:true,
             
-            
+           
         });
-
+       
 
       //  console.log(event.target.value)
         
