@@ -1,0 +1,48 @@
+.timer{
+    display:flex;
+    justify-content:space-evenly;
+  }
+  
+  .timer-boxes {
+
+  border-radius:.5rem;
+  background-color: lightgray;
+  height:8rem;
+  align-items:center;
+  justify-content:center;
+  display:flex;
+  font-size:3rem;
+  color: rgba(0, 0, 0, 0.281);
+  }
+  
+  #time-labels{
+  width:15%;
+  text-align:center;
+  font-size:1.8rem;
+  color:grey;
+  
+  }
+  
+  h1{
+    border-bottom:1px solid rgba(0, 0, 0, 0.226) ;
+    display: flex;
+    justify-content: center;
+    margin:auto;
+    width:20%;
+    text-align: center;
+    color:  DarkGray;
+    padding: 2rem;
+    margin-bottom: 6rem;
+  }
+  
+  
+    @media (max-width:450px){
+  
+      .timer-boxes{
+        font-size:2rem ;
+      }
+    
+      #time-labels{
+        font-size:1.3rem ;
+      }
+      }

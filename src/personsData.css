@@ -1,0 +1,29 @@
+
+form{
+   border: 1px solid lightgray;
+   width: 55%;
+   margin: auto;
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   
+
+}
+
+input{
+    
+    outline: none;
+    border: none;
+    border-bottom:1px solid lightgray ;
+    height: 3rem;
+    width: 60%;
+    margin: 25px;
+}
+input[type=submit]{
+    background-color: lightgray;
+    border-radius: 5px;
+    border-bottom: none;
+
+}
+
+
