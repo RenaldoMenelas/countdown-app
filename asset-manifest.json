@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/countdown-app/static/css/main.04ed0ac0.css",
-    "main.js": "/countdown-app/static/js/main.d353d69d.js",
+    "main.css": "/countdown-app/static/css/main.f30739a6.css",
+    "main.js": "/countdown-app/static/js/main.bce2f116.js",
     "index.html": "/countdown-app/index.html",
-    "main.04ed0ac0.css.map": "/countdown-app/static/css/main.04ed0ac0.css.map",
-    "main.d353d69d.js.map": "/countdown-app/static/js/main.d353d69d.js.map"
+    "main.f30739a6.css.map": "/countdown-app/static/css/main.f30739a6.css.map",
+    "main.bce2f116.js.map": "/countdown-app/static/js/main.bce2f116.js.map"
   },
   "entrypoints": [
-    "static/css/main.04ed0ac0.css",
-    "static/js/main.d353d69d.js"
+    "static/css/main.f30739a6.css",
+    "static/js/main.bce2f116.js"
   ]
 }
