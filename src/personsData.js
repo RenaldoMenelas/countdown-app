@@ -1,14 +1,14 @@
 import React from 'react'
 import './personsData.css'
-import CountdownTimer from './countdownTimer'
-import { useState } from 'react'
+
+
 
 
 function PersonsData({data,setData}) {
 
    
     const handleSubmit = (event) => {
-        window.document.body.style.zoom = 1
+        window.document.body.style.transform = 1.0
         event.preventDefault();
         //console.log(`${data.firstName} ${data.lastName} bithday is on ${data.birthDate}`)
         
