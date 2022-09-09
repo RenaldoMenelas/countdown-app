@@ -6,7 +6,6 @@ let nextYear = currentYear + 1
 let countDownTime  
 
 const countdownTimer = ({ data }) => {
-  let s = "00:00:00.0000"
   let User_monthDate = data.birthDate.slice(4)
   let followingYear = nextYear + User_monthDate 
   let thisYear = currentYear + User_monthDate  

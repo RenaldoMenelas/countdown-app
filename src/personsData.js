@@ -72,8 +72,8 @@ function PersonsData({data,setData}) {
                         onChange={onChange}
                         
                         required />
-                    
-                </label>
+                    </label>
+                
 
                 <label> Date of birth
                  <input
@@ -82,11 +82,11 @@ function PersonsData({data,setData}) {
                         value={data.birthDate}
                         onChange={onChange}
                         required />
-                </label>
+                  </label>
 
                 <label> Submit
                  <input type="submit"/>
-                </label>
+                 </label>
 
                 </form>
             

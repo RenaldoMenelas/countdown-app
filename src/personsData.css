@@ -1,11 +1,12 @@
 
 form{
-   border: 1px solid lightgray;
-   width: 55%;
+   border: 1.5px solid lightgray;
+   width: 60%;
    margin: auto;
    display: flex;
    flex-direction: column;
    text-align: center;
+   padding: 2rem;
    
 
 }
@@ -23,6 +24,18 @@ input[type=submit]{
     background-color: lightgray;
     border-radius: 5px;
     border-bottom: none;
+
+}
+
+@media (max-width:652px){
+    form{
+        width: 80%;
+    }
+    label{
+        display: flex;
+        flex-direction:column ;
+        align-items: center;
+    }
 
 }
 

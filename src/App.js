@@ -12,14 +12,14 @@ function App() {
  
   
   return (
-    <>
+    <div className="app">
       {!data.submitted ?<PersonData data={data} setData={setData} /> : null}
       
       
       {data.submitted?<CountdownTimer data={data} />:null}
       
  
-   </>
+   </div>
   );
 }
 
